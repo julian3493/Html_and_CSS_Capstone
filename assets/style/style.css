@@ -10,6 +10,10 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+section {
+  margin: 10px auto;
+}
+
 a {
   text-decoration: none;
 }
@@ -134,4 +138,31 @@ button {
   padding: 10px 5px;
   align-self: start;
   margin: 20px 0 0 50px;
+}
+
+/* Steps Section */
+.steps-section {
+  text-align: center;
+  padding: 0 20px;
+  max-width: 540px;
+  margin
+}
+
+.steps-title {
+  color: #d4574a;
+  font-size: 14px;
+}
+
+.steps-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.step {
+  margin: 30px 0;
+}
+
+.step-description {
+  display: none;
 }
