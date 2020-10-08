@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Tags */
+body {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+/* Utilities */
+.bg-salmon {
+  background-color: #d4574a;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.f-column {
+  flex-direction: column;
+}
+
+/* Header */
+.nav-bar {
+  align-items: center
+}
+
+.logo{
+  margin-top: 10px;
+  max-width: 40%;
+}
+
+.nav-list {
+  margin: 20px 0;
+}
+
+.nav-list-item {
+  margin-right: 25px;
+}
+
+.nav-list-item:last-child {
+  margin-right: 0;
+}
+
+.nav-link {
+  color: white;
+}
+
+.icon-text {
+  display: none;
+}
+
+/* Search Section */
