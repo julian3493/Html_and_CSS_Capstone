@@ -68,6 +68,10 @@ button {
   text-transform: uppercase;
 }
 
+.inverse {
+  flex-direction: column-reverse;
+}
+
 /* Header */
 .nav-bar {
   align-items: center
@@ -145,7 +149,6 @@ button {
   text-align: center;
   padding: 0 20px;
   max-width: 540px;
-  margin
 }
 
 .steps-title {
@@ -165,4 +168,59 @@ button {
 
 .step-description {
   display: none;
+}
+
+/* Benefits Section */
+.registered,
+.no-move,
+.multi-platform {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 15px 30px;
+}
+
+.registered {
+  background-color: #e27f65;
+}
+
+.no-move {
+  background-color: #99a4a5;
+}
+
+.multi-platform {
+  background-color: #519bd7;
+}
+
+.big-info {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.small-info {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.registered-btn,
+.no-move-btn {
+  padding: 5px 5px;
+  background-color: white;
+}
+
+.registered-btn {
+  color: #e27f65;
+}
+
+.no-move-btn {
+  color: #99a4a5;
+}
+
+.benefit-img {
+  width: 45%;
+  margin-bottom: 10px;
+}
+
+.round img {
+  border-radius: 50%;
 }
