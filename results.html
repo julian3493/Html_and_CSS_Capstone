@@ -40,15 +40,15 @@
   <main class="results-main">
     <div class="filter">
       <h2 class="filter-title">Filter by name, type of place, max of people</h2>
-      <form action="" class="d-flex">
+      <form action="" class="d-flex f-column filter-form">
         <div class="filter-name">
-          <label for="place-name">Place Name</label>
+          <label for="place-name">Place Name </label>
           <input type="search" id="place-name" class="place-name" required>
         </div>
 
         <div class="filter-type">
-          <label for="type-place">Type of Place</label>
-          <select name="" id="">
+          <label for="type-place">Type of Place </label>
+          <select name="type-place" id="type-place" class="type-place">
             <option value=""></option>
             <option value="fastfood">Fast Food</option>
             <option value="drinks">Drinks</option>
@@ -58,16 +58,18 @@
         </div>
 
         <div class="filter-max">
-          <label for="max-number">Maximum of people per table</label>
-          <select name="max-number" id="max-number">
+          <label for="max-number">Maximum of people per table </label>
+          <select name="max-number" id="max-number" class="max-number">
             <option value=""></option>
             <option value="4">4</option>
             <option value="6">6</option>
             <option value="10">10</option>
           </select>
         </div>
-        <button type="submit" class="c-white blue-btn">Search</button>
-        <button type="reset" class="c-white yellow-btn">clear filter</button>
+        <div class="filter-btns">
+          <button type="submit" class="c-white blue-btn">Search</button>
+          <button type="reset" class="c-white yellow-btn">Clear filter</button>
+        </div>
       </form>
     </div>
 
