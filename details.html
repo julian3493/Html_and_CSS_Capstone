@@ -3,9 +3,84 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Detail</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/style/style.css">
+  <link rel="stylesheet" media="screen and (min-width: 768px)" href="assets/css/tablet.css">
+  <link rel="stylesheet" media="screen and (min-width: 1024px)" href="assets/css/desktop.css">
 </head>
 <body>
+  <header class="bg-salmon">
+    <nav class="nav-bar d-flex f-column bg-salmon">
+      <a href="search.html" class="logo">
+        <img src="/assets/img/c58b9f25563385.5634754777284.png" alt="logo">
+      </a>
+      <div class="nav-icon">
+        <ul class="nav-list d-flex">
+          <li class="nav-list-item">
+            <a class="nav-link c-white" href="results.html"><i class="fas fa-search"><span class="icon-text">Places</span></i></a>
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-link c-white" href="#"><i class="far fa-user"><span class="icon-text">About</span></i></a>
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-link c-white" href="#"><i class="fas fa-rss"><span class="icon-text">Blog</span></i></a>
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-link c-white" href="#"><i class="fas fa-bars"><span class="icon-text">More</span></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
   
+  <main>
+    <section class="info-table">
+      <h2>Kasoku Sushi Bar</h2>
+      <div class="grid-info">
+        <div class="feature">
+          <p>Type: </p>
+          <p>Restaurant</p>
+        </div>
+        <div class="feature">
+          <p>Max-People: </p>
+          <p>6</p>
+        </div>
+        <div class="feature">
+          <p>Status: </p>
+          <p>Open</p>
+        </div>
+        <div class="feature">
+          <p>Review</p>
+          <p>4.7 <i class="fas fa-star"></i></p>
+        </div>
+      </div>
+      <button class="blue-btn">Reserve</button>
+      <div class="d-flex">
+        <span><i class="fas fa-phone-alt"></i>Tel</span>
+        <span><i class="fas fa-bus"></i>Transport</span>
+        <span><i class="fas fa-laptop"></i>Website</span>
+        <span><i class="fas fa-users"></i>Visits</span>
+        <span><i class="fas fa-percentage"></i>Discount</span>
+      </div>
+    </section>
+
+    <div class="random-text">
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id tenetur, architecto 
+        molestiae quo nulla, voluptates pariatur recusandae facilis, repudiandae impedit 
+        ipsa. Velit reiciendis voluptates mollitia in animi dolorum ab eaque.</p>
+    </div>
+
+    <div class="more-details">
+      <a href="#">CLICK TO VIEW MORE DETAILS.</a>
+    </div>
+
+    <div class="map-directions">
+      <h4>MAP DIRECTIONS </h4>
+      <img src="/assets/img/map.png" alt="map">
+    </div>
+  </main>
 </body>
 </html>
