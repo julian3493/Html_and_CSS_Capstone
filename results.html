@@ -12,6 +12,116 @@
   <link rel="stylesheet" media="screen and (min-width: 1024px)" href="assets/css/desktop.css">
 </head>
 <body>
-  <header></header>
+  <!--      *******Header*******      -->
+  <header class="bg-salmon">
+    <nav class="nav-bar d-flex f-column">
+      <a href="search.html" class="logo">
+        <img src="/assets/img/c58b9f25563385.5634754777284.png" alt="logo">
+      </a>
+      <div class="nav-icon">
+        <ul class="nav-list d-flex">
+          <li class="nav-list-item">
+            <a class="nav-link c-white" href="#"><i class="fas fa-search"><span class="icon-text">Places</span></i></a>
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-link c-white" href="#"><i class="far fa-user"><span class="icon-text">About</span></i></a>
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-link c-white" href="#"><i class="fas fa-rss"><span class="icon-text">Blog</span></i></a>
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-link c-white" href="#"><i class="fas fa-bars"><span class="icon-text">More</span></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="results-main">
+    <div class="filter">
+      <h2 class="filter-title">Filter by name, type of place, max of people</h2>
+      <form action="" class="d-flex">
+        <div class="filter-name">
+          <label for="place-name">Place Name</label>
+          <input type="search" id="place-name" class="place-name" required>
+        </div>
+
+        <div class="filter-type">
+          <label for="type-place">Type of Place</label>
+          <select name="" id="">
+            <option value=""></option>
+            <option value="fastfood">Fast Food</option>
+            <option value="drinks">Drinks</option>
+            <option value="bar">Bar</option>
+            <option value="restaurant">Restaurant</option>
+          </select>
+        </div>
+
+        <div class="filter-max">
+          <label for="max-number">Maximum of people per table</label>
+          <select name="max-number" id="max-number">
+            <option value=""></option>
+            <option value="4">4</option>
+            <option value="6">6</option>
+            <option value="10">10</option>
+          </select>
+        </div>
+        <button type="submit" class="c-white blue-btn">Search</button>
+        <button type="reset" class="c-white yellow-btn">clear filter</button>
+      </form>
+    </div>
+
+    <div class="results-filter">
+      <ul class="slider">
+        <li id="slide1">
+          <div class="result-container">
+            <h3 class="result-name">Kasoku Sushi Bar</h3>
+            <img src="/assets/img/result-img-1.jpg" alt="result1" class="slider-result-img">
+            <a href="details.html">View Info</a>
+          </div>
+        </li>
+        <li id="slide2">
+          <div class="result-container">
+            <h3 class="result-name">Bastimento</h3>
+            <img src="/assets/img/result-img-2.jpg" alt="result1" class="slider-result-img">
+            <a href="details.html">View Info</a>
+          </div>
+        </li>
+        <li id="slide3">
+          <div class="result-container">
+            <h3 class="result-name">Ristorante Pizzeria Limoncello</h3>
+            <img src="/assets/img/result-img-3.jpg" alt="result1" class="slider-result-img">
+            <a href="details.html">View Info</a>
+          </div>
+        </li>
+      </ul>
+      
+      <ul class="menu">
+        <li>
+          <a href="#slide1">1</a>
+        </li>
+        <li>
+          <a href="#slide2">2</a>
+        </li>
+         <li>
+          <a href="#slide3">3</a>
+        </li>
+      </ul>
+    </div>
+  </main>
+
+  <!--      *******Footer*******      -->
+  <footer class="footer d-flex">
+    <div class="social-icons d-flex">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fas fa-blog"></i></a>
+      <a href="#"><i class="fab fa-google-plus-g"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+    <div class="copyright d-flex">
+      <p>&copy; ThisSite 2020 All Rights Reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
