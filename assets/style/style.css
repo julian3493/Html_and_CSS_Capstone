@@ -171,6 +171,10 @@ button {
 }
 
 /* Benefits Section */
+.benefits-section {
+  margin-bottom: 0;
+}
+
 .registered,
 .no-move,
 .multi-platform {
@@ -223,4 +227,46 @@ button {
 
 .round img {
   border-radius: 50%;
+}
+
+/* Bottom Section */
+.bottom-section {
+  background-color: black;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.bottom-nav {
+  align-items: center;
+}
+
+.bottom-list {
+  border-top: 1px gray solid;
+  border-bottom: 1px gray solid;
+}
+
+.bottom-list a {
+  display: block;
+  color: white;
+  font-size: 10px;
+  margin: 5px 0;
+}
+
+.bottom-list-item {
+  margin-right: 7px;
+}
+
+.bottom-list-item:last-child {
+  margin-right: 0;
+}
+
+.center-nav {
+  border: 1px gray solid;
+  border-radius: 50%;
+  padding: 5px 7px;
+  margin: 5px 0;
+}
+
+.contact-info {
+  display: none ;
 }
