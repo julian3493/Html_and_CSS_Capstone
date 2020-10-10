@@ -181,3 +181,41 @@
 .contact-text a {
   color: #d4574a;
 }
+
+/* Results Page */
+/* Filter Section */
+.results-main {
+  margin-top: 97px;
+}
+
+.filter {
+  padding: 15px 10px;
+}
+
+.filter-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.filter-form {
+  flex-direction: row;
+  max-width: none;
+  width: 90%;
+  justify-content: flex-start;
+}
+
+.filter-name,
+.filter-type,
+.filter-max {
+  margin-right: 8px;
+}
+
+.filter-btns {
+  display: flex;
+  align-self: flex-start;
+  height: 25px;
+}
+
+.yellow-btn {
+  min-width: fit-content;
+}
