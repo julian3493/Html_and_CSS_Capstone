@@ -219,3 +219,20 @@
 .yellow-btn {
   min-width: fit-content;
 }
+
+/* Details Page */
+/* Info Table */
+.details-main {
+  margin-top: 120px;
+}
+.feature-icons {
+  justify-content: flex-end;
+}
+
+.more-details {
+  margin: 10px 0 35px 0;
+}
+
+.map-directions-title {
+  margin-bottom: 30px;
+}

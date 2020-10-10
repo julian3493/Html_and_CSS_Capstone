@@ -282,6 +282,7 @@ button {
   justify-content: space-between;
   align-items: center;
   padding: 5px 10px;
+  bottom: 0;
 }
 
 .social-icons a {
@@ -349,7 +350,7 @@ button {
   padding: 5px 7px;
 }
 
-/* Slider Config */
+/* Results Section */
 
 .results-container {
   width: 80%;
