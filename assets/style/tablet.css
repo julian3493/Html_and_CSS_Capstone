@@ -55,3 +55,25 @@
   align-self: center;
   margin: 20px 20% 0 0;
 }
+
+/* Steps section */
+.steps-section {
+  margin-top: 30px;
+  max-width: none;
+}
+
+.steps-title {
+  font-size: 20px;
+}
+
+.steps-container {
+  grid-template-columns: 1fr;
+}
+
+.step-name i,
+.step-name {
+  margin-bottom: 10px;
+}
+.step-description {
+  display: inline-block;
+}
