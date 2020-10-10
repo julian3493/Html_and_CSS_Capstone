@@ -36,34 +36,34 @@
     </nav>
   </header>
   
-  <main>
-    <section class="info-table">
-      <h2>Kasoku Sushi Bar</h2>
-      <div class="grid-info">
-        <div class="feature">
-          <p>Type: </p>
-          <p>Restaurant</p>
+  <main class="details-main">
+    <section class="info-table d-flex f-column">
+      <h2 class="detail-name">Kasoku Sushi Bar</h2>
+      <div class="grid-info fw-900 uppercase">
+        <div class="feature d-flex">
+          <p>Type:&nbsp;</p>
+          <p class="feature-value">Restaurant</p>
         </div>
-        <div class="feature">
-          <p>Max-People: </p>
-          <p>6</p>
+        <div class="feature d-flex">
+          <p>Max-People:&nbsp;</p>
+          <p class="feature-value">6</p>
         </div>
-        <div class="feature">
-          <p>Status: </p>
-          <p>Open</p>
+        <div class="feature d-flex">
+          <p>Status:&nbsp;</p>
+          <p class="feature-value">Open</p>
         </div>
-        <div class="feature">
-          <p>Review</p>
-          <p>4.7 <i class="fas fa-star"></i></p>
+        <div class="feature d-flex">
+          <p>Review:&nbsp;</p>
+          <p class="feature-value">4.7 <i class="fas fa-star"></i></p>
         </div>
       </div>
-      <button class="blue-btn">Reserve</button>
-      <div class="d-flex">
-        <span><i class="fas fa-phone-alt"></i>Tel</span>
-        <span><i class="fas fa-bus"></i>Transport</span>
-        <span><i class="fas fa-laptop"></i>Website</span>
-        <span><i class="fas fa-users"></i>Visits</span>
-        <span><i class="fas fa-percentage"></i>Discount</span>
+      <button class="blue-btn c-white uppercase fw-700">Reserve</button>
+      <div class="d-flex feature-icons">
+        <span class="d-flex"><i class="feature-icon fas fa-phone-alt"></i>&nbsp;Tel</span>
+        <span class="d-flex"><i class="feature-icon fas fa-bus"></i>&nbsp;Transport</span>
+        <span class="d-flex"><i class="feature-icon fas fa-laptop"></i>&nbsp;Website</span>
+        <span class="d-flex"><i class="feature-icon fas fa-users"></i>&nbsp;Visits</span>
+        <span class="d-flex"><i class="feature-icon fas fa-percentage"></i>&nbsp;Discount</span>
       </div>
     </section>
 
@@ -74,13 +74,27 @@
     </div>
 
     <div class="more-details">
-      <a href="#">CLICK TO VIEW MORE DETAILS.</a>
+      <a href="#" class="fw-700"><i class="fas fa-angle-double-right"></i>&nbsp;CLICK&nbsp;&nbsp;TO&nbsp;&nbsp;VIEW&nbsp;&nbsp;MORE&nbsp;&nbsp;DETAILS.</a>
     </div>
 
     <div class="map-directions">
-      <h4>MAP DIRECTIONS </h4>
+      <h4 class="map-directions-title"><i class="fas fa-map-marker-alt"></i> MAP DIRECTIONS </h4>
       <img src="/assets/img/map.png" alt="map">
     </div>
   </main>
+
+  <!--      *******Footer*******      -->
+  <footer class="footer d-flex">
+    <div class="social-icons d-flex">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fas fa-blog"></i></a>
+      <a href="#"><i class="fab fa-google-plus-g"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+    <div class="copyright d-flex">
+      <p>&copy; ThisSite 2020 All Rights Reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
