@@ -1,0 +1,30 @@
+/*Search Section */
+.search-section {
+  padding: 0 15%;
+}
+.how-btn {
+  margin-right: 0;
+}
+
+/* Steps Section */
+.steps-container {
+  grid-template-columns: 1fr 1fr;
+}
+
+.step {
+  width: 60%;
+  justify-self: center;
+}
+
+/* Benefits Section */
+.registered,
+.no-move,
+.multi-platform {
+  padding: 20px 10%;
+}
+
+/* Bottom Section */
+.bottom-section {
+  padding: 10px 10%;
+}
+

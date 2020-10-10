@@ -283,6 +283,7 @@ button {
   align-items: center;
   padding: 5px 10px;
   bottom: 0;
+  height: 40px;
 }
 
 .social-icons a {
