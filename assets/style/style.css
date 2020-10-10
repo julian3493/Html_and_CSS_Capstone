@@ -240,6 +240,19 @@ button {
   align-items: center;
 }
 
+.first-links,
+.second-links {
+  width: 50%;
+  min-width: 194px;
+  max-width: 270px;
+}
+
+.first-links ul,
+.second-links ul {
+  width: 100%;
+  justify-content: space-between;
+}
+
 .bottom-list {
   border-top: 1px gray solid;
   border-bottom: 1px gray solid;
@@ -250,14 +263,6 @@ button {
   color: white;
   font-size: 10px;
   margin: 5px 0;
-}
-
-.bottom-list-item {
-  margin-right: 7px;
-}
-
-.bottom-list-item:last-child {
-  margin-right: 0;
 }
 
 .center-nav {

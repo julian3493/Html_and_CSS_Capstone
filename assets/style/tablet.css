@@ -77,3 +77,107 @@
 .step-description {
   display: inline-block;
 }
+
+/* Benefits Section */
+.registered,
+.no-move,
+.multi-platform {
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 60px;
+}
+
+.benefit-info {
+  align-self: flex-end;
+  padding-bottom: 5%;
+  text-align: left;
+}
+
+.benefit-info p {
+  margin-bottom: 15px;
+}
+
+.big-info {
+  font-size: 20px;
+}
+
+.benefit-img {
+  margin: 0;
+  width: 30%;
+}
+
+/* Bottom Section */
+.bottom-section {
+  padding: 10px 60px;
+}
+.bottom-nav {
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  margin: 10px 0;
+}
+
+.first-links,
+.second-links {
+  width: 50%;
+  min-width: none;
+  max-width: none;
+}
+
+.first-links ul {
+  padding-left: 15px;
+  padding-right: 25px;
+}
+
+.second-links ul {
+  padding-left: 25px;
+  padding-right: 15px;
+}
+
+.center-nav {
+  position: absolute;
+  background-color: black;
+  padding: 7px 10px;
+}
+
+.contact-info {
+  display: flex;
+  margin: 30px 0 10px 0;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contact-info-container {
+  width: 30%;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.subscribe-email {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.subscribe-email input {
+  background-color: black;
+  border: 1px #444 solid;
+  color: #444;
+  width: 70%;
+}
+
+.subscribe-email button {
+  padding: 3px 20px;
+  background-color: #444;
+}
+
+.contact-text {
+  font-size: 12px;
+}
+
+.contact-text a {
+  color: #d4574a;
+}
