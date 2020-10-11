@@ -23,7 +23,7 @@
 
 ## Live Demo
 
-- https://rawcdn.githack.com/julian3493/Microverse-HTML-Forms-Project/e769a6e389660c3b917892fdbbf5e4360fdbc476/signup.html
+- [Live Demo](https://raw.githack.com/julian3493/Html_and_CSS_Capstone/feature-branch/search.html)
 
 ## Getting Started
 
@@ -36,11 +36,11 @@ Clone the project repository by typing the command below
 After that enter on the directory of the cloned repository
 - cd Microverse-HTML-Forms-Project
 
-To see how it looks like open the signup.html file on your browser
+To see how it looks like open the search.html file on your browser
 
 ## Authors
 
-👤 **Julián**
+👤 **Julián Ramos**
 
 - GitHub: [@julian3493](https://github.com/julian3493)
 - Twitter: [@JulianR16893833](https://twitter.com/JulianR16893833)
@@ -58,7 +58,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-We thank all the sites below where we have found lots of meaningful content
+We thank all the sites below where i have found lots of meaningful content
 
 - Intuit companies
 - W3Schools
+- [Original Design](https://www.behance.net/gallery/25563385/PatashuleKE) owners [Mathew Njuguna](https://www.behance.net/mathewnjuguna) [Sam Anchola](https://www.behance.net/aweSam) 
