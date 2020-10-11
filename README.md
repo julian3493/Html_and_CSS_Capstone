@@ -5,13 +5,16 @@
 > I am a Microverse student doing the HTML and CSS capstone project. I followed the design of the directory of schools [Patashule](https://www.behance.net/gallery/25563385/PatashuleKE) to make a website with different content but keeping the layout and colors from the original design.
 
 - Mobile
-![screenshot](./assets/img/mobile_screenshot.png)
 
--Tablet
-![screenshot](./assets/img/tablet_screenshot.png)
+ ![screenshot](./assets/img/mobile_screenshot.png)
 
--Desktop
-![screenshot](./assets/img/desktop_screenshot.png)
+- Tablet
+
+ ![screenshot](./assets/img/tablet_screenshot.png)
+
+- Desktop
+
+ ![screenshot](./assets/img/desktop_screenshot.png)
 
 ## Built With
 
