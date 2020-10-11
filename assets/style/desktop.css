@@ -28,3 +28,28 @@
   padding: 10px 10%;
 }
 
+/* Results Page */
+/* Filter Section */
+.results-main {
+  margin-top: 160px;
+}
+
+.filter {
+  padding-bottom: 40px;
+}
+
+/* Results Section */
+.results-container {
+  width: 90%;
+}
+
+.results-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+}
+
+.result-name {
+  text-align: center;
+}
+
