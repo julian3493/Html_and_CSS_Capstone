@@ -72,6 +72,21 @@ button {
   flex-direction: column-reverse;
 }
 
+.search-section,
+.registered,
+.no-move,
+.multi-platform,
+.feature,
+.feature-icons span {
+  justify-content: center;
+}
+
+.first-links ul,
+.second-links ul,
+.footer,
+.feature-icons {
+  justify-content: space-between;
+}
 /* Header */
 .nav-bar {
   align-items: center;
@@ -106,7 +121,6 @@ button {
   height: 80vh;
   padding: 0 10px;
   align-items: center;
-  justify-content: center;
   text-align: center;
 }
 
@@ -184,7 +198,6 @@ button {
 .registered,
 .no-move,
 .multi-platform {
-  justify-content: center;
   align-items: center;
   text-align: center;
   padding: 15px 30px;
@@ -256,7 +269,6 @@ button {
 .first-links ul,
 .second-links ul {
   width: 100%;
-  justify-content: space-between;
 }
 
 .bottom-list {
@@ -285,7 +297,6 @@ button {
 /* Footer */
 .footer {
   background-color: #1f1f1f;
-  justify-content: space-between;
   align-items: center;
   padding: 5px 10px;
   bottom: 0;
@@ -415,7 +426,6 @@ button {
 }
 
 .feature {
-  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   padding: 5px 3px;
@@ -432,13 +442,8 @@ button {
   margin: 10px 0;
 }
 
-.feature-icons {
-  justify-content: space-between;
-}
-
 .feature-icons span {
   flex-wrap: wrap;
-  justify-content: center;
   margin-right: 5px;
   align-items: center;
 }

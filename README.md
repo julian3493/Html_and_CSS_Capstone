@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Html_and_CSS_Capstone
+# Html and CSS Capstone
 
 > I am a Microverse student doing the HTML and CSS capstone project. I followed the design of the directory of schools [Patashule](https://www.behance.net/gallery/25563385/PatashuleKE) to make a website with different content but keeping the layout and colors from the original design.
 
