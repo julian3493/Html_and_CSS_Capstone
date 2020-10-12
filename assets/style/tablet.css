@@ -73,6 +73,7 @@
 .step-name {
   margin-bottom: 10px;
 }
+
 .step-description {
   display: inline-block;
 }
@@ -120,7 +121,7 @@
 .first-links,
 .second-links {
   width: 50%;
-  min-width: none;
+  min-width: unset;
   max-width: none;
 }
 
@@ -183,6 +184,7 @@
 }
 
 /* Results Page */
+
 /* Filter Section */
 .results-main {
   margin-top: 97px;
@@ -221,10 +223,12 @@
 }
 
 /* Details Page */
+
 /* Info Table */
 .details-main {
   margin-top: 120px;
 }
+
 .feature-icons {
   justify-content: flex-end;
 }

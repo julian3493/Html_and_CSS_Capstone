@@ -1,7 +1,8 @@
-/*Search Section */
+/* Search Section */
 .search-section {
   padding: 0 15%;
 }
+
 .how-btn {
   margin-right: 0;
 }
@@ -29,6 +30,7 @@
 }
 
 /* Results Page */
+
 /* Filter Section */
 .results-main {
   margin-top: 160px;
