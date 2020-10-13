@@ -1,0 +1,764 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Tags */
+body {
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+}
+
+section {
+  margin: 10px auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  border-radius: 2px;
+  border: none;
+}
+
+/* Utilities */
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-900 {
+  font-weight: 900;
+}
+
+.bg-salmon {
+  background-color: #d4574a;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.f-column {
+  flex-direction: column;
+}
+
+.c-white {
+  color: white;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.inverse {
+  flex-direction: column-reverse;
+}
+
+.search-section,
+.registered,
+.no-move,
+.multi-platform,
+.feature,
+.feature-icons span {
+  justify-content: center;
+}
+
+.first-links ul,
+.second-links ul,
+.footer,
+.feature-icons {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Header */
+.logo {
+  margin-top: 10px;
+  max-width: 40%;
+}
+
+.nav-list {
+  margin: 20px 0;
+}
+
+.nav-list-item {
+  margin-right: 25px;
+}
+
+.nav-list-item:last-child {
+  margin-right: 0;
+}
+
+.icon-text {
+  display: none;
+}
+
+/* Search Section */
+.search-section {
+  background-image: url(../img/search-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+  padding: 0 10px;
+}
+
+.main-title {
+  font-size: 18px;
+}
+
+.search-form {
+  background: rgba(240, 243, 248, 0.6);
+  padding: 14px 5px;
+  width: 90%;
+  text-align: left;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.search-label {
+  color: #4b4f55;
+}
+
+.search-input {
+  border-radius: 2px;
+  border: none;
+  margin: 5px 0;
+}
+
+.search-input,
+.search-form button {
+  height: 25px;
+}
+
+.how-btn {
+  background: rgba(240, 243, 248, 0.6);
+  color: #4b4f55;
+  padding: 10px 5px;
+  align-self: start;
+  margin: 20px 0 0 50px;
+}
+
+/* Steps Section */
+.steps-section {
+  padding: 0 20px;
+  max-width: 540px;
+}
+
+.steps-title {
+  color: #d4574a;
+  font-size: 14px;
+}
+
+.steps-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.step {
+  margin: 30px 0;
+}
+
+.step-name {
+  font-size: 25px;
+}
+
+/* Benefits Section */
+.benefits-section {
+  margin-bottom: 0;
+}
+
+.registered,
+.no-move,
+.multi-platform {
+  padding: 15px 30px;
+}
+
+.registered {
+  background-color: #e27f65;
+}
+
+.no-move {
+  background-color: #99a4a5;
+}
+
+.multi-platform {
+  background-color: #519bd7;
+}
+
+.big-info {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.small-info {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.registered-btn,
+.no-move-btn {
+  padding: 5px 5px;
+  background-color: white;
+}
+
+.registered-btn {
+  color: #e27f65;
+}
+
+.no-move-btn {
+  color: #99a4a5;
+}
+
+.benefit-img {
+  width: 45%;
+  margin-bottom: 10px;
+}
+
+.round img {
+  border-radius: 50%;
+}
+
+/* Bottom Section */
+.bottom-section {
+  background-color: black;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.first-links,
+.second-links {
+  width: 50%;
+  min-width: 194px;
+  max-width: 270px;
+}
+
+.first-links ul,
+.second-links ul {
+  width: 100%;
+}
+
+.bottom-list {
+  border-top: 1px gray solid;
+  border-bottom: 1px gray solid;
+}
+
+.bottom-list a {
+  display: block;
+  font-size: 10px;
+  margin: 5px 0;
+}
+
+.center-nav {
+  border: 1px gray solid;
+  border-radius: 50%;
+  padding: 5px 7px;
+  margin: 5px 0;
+}
+
+/* Footer */
+.footer {
+  background-color: #1f1f1f;
+  padding: 5px 10px;
+  bottom: 0;
+  height: 40px;
+}
+
+.social-icons a {
+  color: #444;
+  margin-right: 5px;
+}
+
+.copyright {
+  color: #444;
+  font-size: 10px;
+}
+
+/* Results Page */
+
+/* Form Filter */
+.filter {
+  background-color: #eee;
+  margin: 15px 0;
+  padding: 5px 10px;
+}
+
+.filter-title {
+  color: #959290;
+  font-size: 15px;
+}
+
+.filter-form {
+  font-size: 12px;
+  color: #484544;
+  margin: 5px auto;
+  text-align: left;
+  width: 50%;
+  max-width: 250px;
+}
+
+.filter-form label {
+  margin: 0;
+}
+
+.place-name,
+.type-place,
+.max-number {
+  border: none;
+  border-radius: 2px;
+}
+
+.filter-form div {
+  margin-bottom: 3px;
+}
+
+.filter-btns {
+  align-self: center;
+}
+
+.blue-btn {
+  background-color: #457eb4;
+}
+
+.yellow-btn {
+  background-color: #e6ac5b;
+}
+
+.blue-btn,
+.yellow-btn {
+  padding: 5px 7px;
+}
+
+/* Results Section */
+
+.results-container {
+  width: 80%;
+  margin: 0 auto 10px auto;
+}
+
+.results-title {
+  color: #6b686d;
+  font-size: 24px;
+}
+
+.results-title,
+.result-name,
+.result-img {
+  margin-bottom: 10px;
+}
+
+.result {
+  margin-bottom: 7px;
+  background-color: #d4574a;
+  padding: 5px 12px;
+}
+
+.result-name {
+  font-size: 18px;
+}
+
+.result a {
+  display: block;
+  text-align: end;
+}
+
+/* Details Page */
+
+/* Info Table */
+.details-main {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.info-table {
+  border: 1px lightgray solid;
+  padding: 10px 8px;
+}
+
+.detail-name {
+  color: #d4574a;
+  font-size: 24px;
+}
+
+.grid-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5px;
+  row-gap: 5px;
+  margin: 8px 0;
+}
+
+.feature {
+  flex-wrap: wrap;
+  padding: 5px 3px;
+  border: 1px lightgray solid;
+}
+
+.feature-value,
+.feature-icon {
+  color: #457eb4;
+}
+
+.info-table button {
+  align-self: center;
+  margin: 10px 0;
+}
+
+.feature-icons span {
+  flex-wrap: wrap;
+  margin-right: 5px;
+}
+
+.random-text {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.more-details {
+  background-color: #f5f5f5;
+  padding: 10px 20px;
+  margin-bottom: 25px;
+}
+
+.more-details a {
+  color: #6b686d;
+}
+
+.map-directions-title {
+  color: #d4574a;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .step-description {
+    display: none;
+  }
+
+  .contact-info {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  /* Utilities */
+  .t-row {
+    flex-direction: row;
+  }
+
+  .t-spc-bet {
+    justify-content: space-between;
+  }
+
+  /* Nav-Bar */
+  .nav-bar {
+    position: fixed;
+    width: 100%;
+    height: 97px;
+    padding: 5px 150px 5px 50px;
+    top: 0;
+  }
+
+  .nav-bar a {
+    margin: 0;
+  }
+
+  .logo img {
+    height: 68px;
+    width: 252px;
+  }
+
+  /* Search Section */
+  .search-section {
+    margin-top: 97px;
+    padding: 0 20%;
+  }
+
+  .main-title {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .search-form {
+    padding: 24px 20px;
+  }
+
+  .search-label {
+    margin-bottom: 8px;
+  }
+
+  .search-input {
+    margin: 0;
+    width: 70%;
+  }
+
+  .search-input-button-div button {
+    width: 20%;
+  }
+
+  .how-btn {
+    align-self: center;
+    margin: 20px 20% 0 0;
+  }
+
+  /* Steps section */
+  .steps-section {
+    margin-top: 30px;
+    max-width: none;
+  }
+
+  .steps-title,
+  .big-info,
+  .contact-title,
+  .filter-title {
+    font-size: 20px;
+  }
+
+  .steps-container {
+    grid-template-columns: 1fr;
+  }
+
+  .step-name i,
+  .step-name {
+    margin-bottom: 10px;
+  }
+
+  /* Benefits Section */
+  .registered,
+  .no-move,
+  .multi-platform {
+    padding: 20px 60px;
+  }
+
+  .benefit-info {
+    align-self: flex-end;
+    padding-bottom: 5%;
+    text-align: left;
+  }
+
+  .benefit-info p {
+    margin-bottom: 15px;
+  }
+
+  .benefit-img {
+    margin: 0;
+    width: 30%;
+  }
+
+  /* Bottom Section */
+  .bottom-section {
+    padding: 10px 60px;
+  }
+
+  .bottom-nav {
+    justify-content: center;
+    position: relative;
+    margin: 10px 0;
+  }
+
+  .first-links,
+  .second-links {
+    width: 50%;
+    min-width: unset;
+    max-width: none;
+  }
+
+  .first-links ul {
+    padding-left: 15px;
+    padding-right: 25px;
+  }
+
+  .second-links ul {
+    padding-left: 25px;
+    padding-right: 15px;
+  }
+
+  .center-nav {
+    position: absolute;
+    background-color: black;
+    padding: 7px 10px;
+  }
+
+  .contact-info {
+    margin: 30px 0 10px 0;
+    align-items: flex-start;
+  }
+
+  .contact-info-container {
+    width: 30%;
+    text-align: center;
+  }
+
+  .contact-title {
+    margin-bottom: 20px;
+  }
+
+  .subscribe-email {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .subscribe-email input {
+    background-color: black;
+    border: 1px #444 solid;
+    color: #444;
+    width: 70%;
+  }
+
+  .subscribe-email button {
+    padding: 3px 20px;
+    background-color: #444;
+  }
+
+  .contact-text {
+    font-size: 12px;
+  }
+
+  .contact-text a {
+    color: #d4574a;
+  }
+
+  /* Results Page */
+
+  /* Filter Section */
+  .results-main {
+    margin-top: 97px;
+  }
+
+  .filter {
+    padding: 15px 10px;
+  }
+
+  .filter-title {
+    margin-bottom: 20px;
+  }
+
+  .filter-form {
+    max-width: none;
+    width: 90%;
+    justify-content: flex-start;
+  }
+
+  .filter-name,
+  .filter-type,
+  .filter-max {
+    margin-right: 8px;
+  }
+
+  .place-name,
+  .type-place,
+  .max-number {
+    height: 25px;
+  }
+
+  .filter-btns {
+    align-self: flex-end;
+    height: 25px;
+  }
+
+  .yellow-btn {
+    min-width: fit-content;
+  }
+
+  /* Details Page */
+
+  /* Info Table */
+  .details-main {
+    margin-top: 120px;
+  }
+
+  .feature-icons {
+    justify-content: flex-end;
+  }
+
+  .more-details {
+    margin: 10px 0 35px 0;
+  }
+
+  .map-directions-title {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Search Section */
+  .search-section {
+    padding: 0 15%;
+  }
+
+  .how-btn {
+    margin-right: 0;
+  }
+
+  /* Steps Section */
+  .steps-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .step {
+    width: 60%;
+    justify-self: center;
+  }
+
+  /* Benefits Section */
+  .registered,
+  .no-move,
+  .multi-platform {
+    padding: 20px 10%;
+  }
+
+  /* Bottom Section */
+  .bottom-section {
+    padding: 10px 10%;
+  }
+
+  /* Results Page */
+
+  /* Filter Section */
+  .results-main {
+    margin-top: 160px;
+  }
+
+  .filter {
+    padding-bottom: 40px;
+  }
+
+  /* Results Section */
+  .results-container {
+    width: 90%;
+  }
+
+  .results-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+  }
+
+  .result-name {
+    text-align: center;
+  }
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Results</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+<body>
+  <!--      *******Header*******      -->
+  <header class="bg-salmon">
+    <nav class="nav-bar d-flex f-column bg-salmon t-row t-spc-bet align-center">
+      <a href="index.html" class="logo">
+        <img src="./assets/img/c58b9f25563385.5634754777284.png" alt="logo">
+      </a>
+      <div class="nav-icon">
+        <ul class="nav-list d-flex">
+          <li class="nav-list-item">
+            <a class="nav-link c-white" href="results.html"><i class="fas fa-search"><span class="icon-text">Places</span></i></a>
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-link c-white" href="#"><i class="far fa-user"><span class="icon-text">About</span></i></a>
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-link c-white" href="#"><i class="fas fa-rss"><span class="icon-text">Blog</span></i></a>
+          </li>
+          <li class="nav-list-item">
+            <a class="nav-link c-white" href="#"><i class="fas fa-bars"><span class="icon-text">More</span></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!--      *******Filter*******      -->
+  <main class="results-main">
+    <div class="filter text-center">
+      <h1 class="filter-title">Filter by name, type of place, max of people</h1>
+      <form action="results.html" class="d-flex f-column filter-form t-row">
+        <div class="filter-name uppercase fw-900">
+          <label for="place-name">Place Name </label>
+          <input type="search" id="place-name" class="place-name" required>
+        </div>
+
+        <div class="filter-type uppercase fw-900">
+          <label for="type-place">Type of Place </label>
+          <select name="type-place" id="type-place" class="type-place">
+            <option value="">&nbsp;</option>
+            <option value="fastfood">Fast Food</option>
+            <option value="drinks">Drinks</option>
+            <option value="bar">Bar</option>
+            <option value="restaurant">Restaurant</option>
+          </select>
+        </div>
+
+        <div class="filter-max uppercase fw-900">
+          <label for="max-number">Maximum of people per table </label>
+          <select name="max-number" id="max-number" class="max-number">
+            <option value="">&nbsp;</option>
+            <option value="4">4</option>
+            <option value="6">6</option>
+            <option value="10">10</option>
+          </select>
+        </div>
+        <div class="filter-btns d-flex">
+          <button type="submit" class="c-white blue-btn">Search</button>
+          <button type="reset" class="c-white yellow-btn">Clear filter</button>
+        </div>
+      </form>
+    </div>
+
+    <!--      *******Results*******      -->
+    <div class="results-container">
+      <h1 class="results-title text-center">Search results Found 3 place(s)</h1>
+      <div class="d-flex f-column results-wrapper">
+        <article class="result">
+          <h3 class="c-white result-name">Kasoku Sushi Bar</h3>
+          <img src="./assets/img/result-img-1.jpg" alt="result1" class="result-img">
+          <a class="c-white" href="details.html">View Info</a>
+        </article>
+        
+        <article class="result">
+          <h3 class="c-white result-name">Bastimento</h3>
+          <img src="./assets/img/result-img-2.jpg" alt="result2" class="result-img">
+          <a class="c-white" href="details.html">View Info</a>
+        </article>
+
+        <article class="result">
+          <h3 class="c-white result-name">Ristorante Pizzeria Limoncello</h3>
+          <img src="./assets/img/result-img-3.jpg" alt="result3" class="result-img">
+          <a class="c-white" href="details.html">View Info</a>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <!--      *******Footer*******      -->
+  <footer class="footer d-flex">
+    <div class="social-icons d-flex">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fas fa-blog"></i></a>
+      <a href="#"><i class="fab fa-google-plus-g"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+    <div class="copyright d-flex">
+      <p>&copy; ThisSite 2020 All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
