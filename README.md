@@ -25,7 +25,7 @@
 
 ## Live Demo
 
-- [Live Demo](https://raw.githack.com/julian3493/Html_and_CSS_Capstone/feature-branch/search.html)
+- [Live Demo](https://raw.githack.com/julian3493/Html_and_CSS_Capstone/feature-branch/index.html)
 
 ## Getting Started
 
