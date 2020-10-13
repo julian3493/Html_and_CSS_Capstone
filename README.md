@@ -4,6 +4,8 @@
 
 > I am a Microverse student doing the HTML and CSS capstone project. I followed the design of the directory of schools [Patashule](https://www.behance.net/gallery/25563385/PatashuleKE) to make a website with different content but keeping the layout and colors from the original design.
 
+> The idea used for this website is you can search for different types of places like pubs restaurants fast food sites and others, then you can view some information about the place and, if you like, to make a reservation
+
 - Mobile
 
  ![screenshot](./assets/img/mobile_screenshot.png)
@@ -38,7 +40,7 @@ After that enter on the directory of the cloned repository
 
 To see how it looks like open the search.html file on your browser
 
-## Authors
+## Author
 
 👤 **Julián Ramos**
 
