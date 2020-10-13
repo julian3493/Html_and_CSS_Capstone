@@ -212,9 +212,15 @@
   margin-right: 8px;
 }
 
+.place-name,
+.type-place,
+.max-number {
+  height: 25px;
+}
+
 .filter-btns {
   display: flex;
-  align-self: flex-start;
+  align-self: flex-end;
   height: 25px;
 }
 
