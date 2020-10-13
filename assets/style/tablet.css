@@ -1,8 +1,15 @@
+/* Utilities */
+.t-row {
+  flex-direction: row;
+}
+
+.t-spc-bet {
+  justify-content: space-between;
+}
+
 /* Nav-Bar */
 .nav-bar {
   position: fixed;
-  flex-direction: row;
-  justify-content: space-between;
   width: 100%;
   height: 97px;
   padding: 5px 150px 5px 50px;
@@ -37,10 +44,6 @@
   margin-bottom: 8px;
 }
 
-.search-input-button-div {
-  flex-direction: row;
-}
-
 .search-input {
   margin: 0;
   width: 70%;
@@ -61,7 +64,10 @@
   max-width: none;
 }
 
-.steps-title {
+.steps-title,
+.big-info,
+.contact-title,
+.filter-title {
   font-size: 20px;
 }
 
@@ -74,16 +80,10 @@
   margin-bottom: 10px;
 }
 
-.step-description {
-  display: inline-block;
-}
-
 /* Benefits Section */
 .registered,
 .no-move,
 .multi-platform {
-  flex-direction: row;
-  justify-content: space-between;
   padding: 20px 60px;
 }
 
@@ -97,10 +97,6 @@
   margin-bottom: 15px;
 }
 
-.big-info {
-  font-size: 20px;
-}
-
 .benefit-img {
   margin: 0;
   width: 30%;
@@ -112,7 +108,6 @@
 }
 
 .bottom-nav {
-  flex-direction: row;
   justify-content: center;
   position: relative;
   margin: 10px 0;
@@ -142,9 +137,7 @@
 }
 
 .contact-info {
-  display: flex;
   margin: 30px 0 10px 0;
-  justify-content: space-between;
   align-items: flex-start;
 }
 
@@ -154,7 +147,6 @@
 }
 
 .contact-title {
-  font-size: 20px;
   margin-bottom: 20px;
 }
 
@@ -195,12 +187,10 @@
 }
 
 .filter-title {
-  font-size: 20px;
   margin-bottom: 20px;
 }
 
 .filter-form {
-  flex-direction: row;
   max-width: none;
   width: 90%;
   justify-content: flex-start;
@@ -219,7 +209,6 @@
 }
 
 .filter-btns {
-  display: flex;
   align-self: flex-end;
   height: 25px;
 }
